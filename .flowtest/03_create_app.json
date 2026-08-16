@@ -1,0 +1,1 @@
+{"merchantId":1,"name":"电商收款应用","type":1,"callbackUrl":"https://merchant.example.com/pay/callback","returnUrl":"https://merchant.example.com/pay/return"}

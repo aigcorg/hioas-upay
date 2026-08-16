@@ -1,0 +1,1 @@
+{"name":"备用支付策略V2","description":"用于测试策略更新/发布/停用的草稿","rules":[{"priority":1,"name":"备用规则","description":"测试用规则","condition":{"amountRange":[0.01,100000],"scene":"ecommerce","riskLevel":0},"channels":["wx_jsapi","alipay_trade"],"sortBy":"fee_rate_asc"}],"fallbackPolicy":{"enabled":true,"maxAttempts":2,"requireReAuthorization":false}}

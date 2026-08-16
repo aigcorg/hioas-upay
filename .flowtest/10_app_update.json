@@ -1,0 +1,1 @@
+{"id":1,"merchantId":1,"appid":"app_20260816_5746","name":"电商收款应用V2","type":1,"callbackUrl":"https://merchant.example.com/pay/callback","returnUrl":"https://merchant.example.com/pay/return","status":0,"signSecretKey":"LIO/RfkexyTWcSboyc1ypayFwfVPrC9SExwRdcTW7E12F2+R7ur4qcpAZR4hqJ0O"}
