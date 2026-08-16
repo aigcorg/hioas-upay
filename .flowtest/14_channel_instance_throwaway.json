@@ -1,1 +1,19 @@
-{"channelCode":"zj_payment","instanceName":"中金支付测试实例-待删除","config":{"merchantId":"ZJ2026001","merchantKey":"TEMP_KEY_123456"},"fees":{"rate":0.005,"caps":{"min":0.01,"max":10000}},"amountLimit":{"singleMax":50000,"dailyMax":500000}}
+{
+  "channelCode": "zj_payment",
+  "instanceName": "中金支付测试实例-待删除",
+  "config": {
+    "merchantId": "ZJ2026001",
+    "merchantKey": "TEMP_KEY_123456"
+  },
+  "fees": {
+    "rate": 0.005,
+    "caps": {
+      "min": 0.01,
+      "max": 10000
+    }
+  },
+  "amountLimit": {
+    "singleMax": 50000,
+    "dailyMax": 500000
+  }
+}

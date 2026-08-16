@@ -1,1 +1,15 @@
-{"merchantOrderNo":"ORD202608160001","amount":88.50,"currency":"CNY","scene":"ecommerce","riskLevel":0,"productName":"测试商品","productDesc":"支付聚合平台全流程测试商品","metadata":{"source":"flow-test"},"callbackParams":{"notify_url":"https://merchant.example.com/pay/notify"}}
+{
+  "merchantOrderNo": "ORD202608160001",
+  "amount": 88.50,
+  "currency": "CNY",
+  "scene": "ecommerce",
+  "riskLevel": 0,
+  "productName": "测试商品",
+  "productDesc": "支付聚合平台全流程测试商品",
+  "metadata": {
+    "source": "flow-test"
+  },
+  "callbackParams": {
+    "notify_url": "https://merchant.example.com/pay/notify"
+  }
+}

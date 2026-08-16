@@ -1,1 +1,15 @@
-{"merchantOrderNo":"ORD202608160002","amount":99.00,"currency":"CNY","scene":"ecommerce","riskLevel":0,"productName":"待取消测试订单","productDesc":"测试订单取消功能","metadata":{"source":"flow-test-cancel"},"callbackParams":{"notify_url":"https://merchant.example.com/pay/notify2"}}
+{
+  "merchantOrderNo": "ORD202608160002",
+  "amount": 99.00,
+  "currency": "CNY",
+  "scene": "ecommerce",
+  "riskLevel": 0,
+  "productName": "待取消测试订单",
+  "productDesc": "测试订单取消功能",
+  "metadata": {
+    "source": "flow-test-cancel"
+  },
+  "callbackParams": {
+    "notify_url": "https://merchant.example.com/pay/notify2"
+  }
+}

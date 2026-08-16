@@ -1,1 +1,6 @@
-{"channelCodes":["wx_jsapi","alipay_trade"]}
+{
+  "channelCodes": [
+    "wx_jsapi",
+    "alipay_trade"
+  ]
+}

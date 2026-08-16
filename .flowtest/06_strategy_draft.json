@@ -1,1 +1,29 @@
-{"name":"默认支付策略","description":"微信优先的标准路由策略","rules":[{"priority":1,"name":"默认规则","description":"默认走微信，金额1万以内","condition":{"amountRange":[0.01,10000],"scene":"ecommerce","riskLevel":0},"channels":["wx_jsapi","alipay_trade"],"sortBy":"fee_rate_asc"}],"fallbackPolicy":{"enabled":true,"maxAttempts":3,"requireReAuthorization":false}}
+{
+  "name": "默认支付策略",
+  "description": "微信优先的标准路由策略",
+  "rules": [
+    {
+      "priority": 1,
+      "name": "默认规则",
+      "description": "默认走微信，金额1万以内",
+      "condition": {
+        "amountRange": [
+          0.01,
+          10000
+        ],
+        "scene": "ecommerce",
+        "riskLevel": 0
+      },
+      "channels": [
+        "wx_jsapi",
+        "alipay_trade"
+      ],
+      "sortBy": "fee_rate_asc"
+    }
+  ],
+  "fallbackPolicy": {
+    "enabled": true,
+    "maxAttempts": 3,
+    "requireReAuthorization": false
+  }
+}

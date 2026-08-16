@@ -1,1 +1,19 @@
-{"channelCode":"alipay_trade","instanceName":"支付宝网站支付实例","config":{"app_id":"20210011000012345678","merchant_private_key":"test_alipay_private_key"},"fees":{"rate":0.006,"caps":{"min":0.01,"max":10000}},"amountLimit":{"singleMax":50000,"dailyMax":500000}}
+{
+  "channelCode": "alipay_trade",
+  "instanceName": "支付宝网站支付实例",
+  "config": {
+    "app_id": "20210011000012345678",
+    "merchant_private_key": "test_alipay_private_key"
+  },
+  "fees": {
+    "rate": 0.006,
+    "caps": {
+      "min": 0.01,
+      "max": 10000
+    }
+  },
+  "amountLimit": {
+    "singleMax": 50000,
+    "dailyMax": 500000
+  }
+}

@@ -1,1 +1,7 @@
-{"merchantId":1,"name":"测试应用2","type":1,"callbackUrl":"https://merchant2.example.com/cb","returnUrl":"https://merchant2.example.com/return"}
+{
+  "merchantId": 1,
+  "name": "测试应用2",
+  "type": 1,
+  "callbackUrl": "https://merchant2.example.com/cb",
+  "returnUrl": "https://merchant2.example.com/return"
+}

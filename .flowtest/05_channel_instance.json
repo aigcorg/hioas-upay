@@ -1,1 +1,20 @@
-{"channelCode":"wx_jsapi","instanceName":"微信JSAPI生产实例","config":{"appid":"wx1234567890","mch_id":"1234567890","secret":"test_wx_secret_123456"},"fees":{"rate":0.006,"caps":{"min":0.01,"max":10000}},"amountLimit":{"singleMax":50000,"dailyMax":500000}}
+{
+  "channelCode": "wx_jsapi",
+  "instanceName": "微信JSAPI生产实例",
+  "config": {
+    "appid": "wx1234567890",
+    "mch_id": "1234567890",
+    "secret": "test_wx_secret_123456"
+  },
+  "fees": {
+    "rate": 0.006,
+    "caps": {
+      "min": 0.01,
+      "max": 10000
+    }
+  },
+  "amountLimit": {
+    "singleMax": 50000,
+    "dailyMax": 500000
+  }
+}
