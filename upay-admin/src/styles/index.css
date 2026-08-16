@@ -1,0 +1,37 @@
+/* ===== 全局基础样式 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Han Sans SC', 'Noto Sans SC', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif;
+  font-size: 14px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f5f5;
+}
+
+a {
+  color: #2b5ea7;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* remixicon 图标字体与中文正文字号保持一致基线 */
+i[class^='ri-'],
+i[class*=' ri-'] {
+  line-height: 1;
+}
